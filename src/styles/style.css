@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap');
+
+.header,
+.navbar {
+    background-color: #FFC700;
+}
+
+.link {
+    background-color: #433434;
+    width: 100px;
+}
+
+.head-title h1 {
+    font-family: 'Abhaya Libre ExtraBold';
+    color: #433434;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.head-content p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.modal-title {
+    color: #FFC700;
+}
