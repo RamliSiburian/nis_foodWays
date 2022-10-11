@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Button, Modal, Form } from 'react-bootstrap';
+import { Modal, Form } from 'react-bootstrap';
 import GlobalButton from '../components/Atoms/Global-button';
 import GlobalForm from '../components/Atoms/Global-form';
+import Navigation from '../components/Navigation';
 
 function Login({ show, setShow }) {
     const handleClose = () => setShow(false);
@@ -38,6 +39,9 @@ function Login({ show, setShow }) {
                         className='btn link border-0 w-100'
                     />
                 </Modal.Footer>
+                <p className='text-center'>
+                    Don't have an account ? click Here
+                </p>
             </Modal>
         </>
     );

@@ -5,6 +5,10 @@
     background-color: #FFC700;
 }
 
+a {
+    text-decoration: none;
+}
+
 .link {
     background-color: #433434;
     width: 100px;
