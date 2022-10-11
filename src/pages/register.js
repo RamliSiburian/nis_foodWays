@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form, Modal } from 'react-bootstrap';
+import { Form, Modal } from 'react-bootstrap';
 import GlobalButton from '../components/Atoms/Global-button';
 
 function Register({ show, setShow }) {

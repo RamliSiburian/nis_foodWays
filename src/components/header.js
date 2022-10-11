@@ -1,8 +1,4 @@
 import React from 'react'
-import { Container, Nav, Navbar, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Login from '../pages/login';
-
 
 function Header() {
     return (
