@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/style.css";
 import './App.css';
 import Navigation from "./components/Navigation";
+import { PopularList } from "./components/Popular-restaurant-list";
+import { NearRestaurantList } from "./components/Near-restaurant-list";
 // navigation / routing
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -15,9 +17,10 @@ function App() {
       <Navigation />
       {/* Header */}
       <Header />
+      <PopularList />
+      <NearRestaurantList />
       <Routes>
-        {/* Call pages */}
-        {/* <Route exact path="/login" element={<Login />} /> */}
+
       </Routes>
     </Router>
   );

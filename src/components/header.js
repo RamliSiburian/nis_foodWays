@@ -6,8 +6,8 @@ function Header() {
             <div className="header-info d-lg-flex gap-5 w-75 m-auto">
                 <div className="left">
                     <div className="head-title">
-                        <h1>Are You Hungry ?</h1>
-                        <h1>Express Home Delivery</h1>
+                        <p className='fw-bold fs-1'>Are You Hungry ?</p>
+                        <p className='fw-bold fs-1'>Express Home Delivery</p>
                     </div>
                     <div className="head-content d-md-flex gap-3 mt-4">
                         <div className="hr-image text-center mb-sm-3" >

@@ -22,7 +22,7 @@ function Navigation() {
                             />
                             <GlobalButton
                                 name='Login'
-                                className='link btn text-white me-3 border-0'
+                                className='link btn text-white border-0'
                                 onClick={() => setShowLogin(true)}
                             />
                         </Nav>

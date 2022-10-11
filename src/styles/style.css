@@ -14,11 +14,9 @@ a {
     width: 100px;
 }
 
-.head-title h1 {
+.head-title p{
     font-family: 'Abhaya Libre ExtraBold';
     color: #433434;
-    font-size: 45px;
-    font-weight: bold;
 }
 
 .head-content p {
@@ -28,4 +26,10 @@ a {
 
 .modal-title {
     color: #FFC700;
+}
+
+.popular-item,
+.near-item {
+    background-color: #fff;
+    min-width: 220px;
 }
