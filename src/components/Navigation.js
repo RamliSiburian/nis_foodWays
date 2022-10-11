@@ -3,6 +3,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import Login from '../pages/login';
 import Register from '../pages/register';
 import GlobalButton from './Atoms/Global-button';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     const [showLogin, setShowLogin] = useState(false);
@@ -11,7 +12,7 @@ function Navigation() {
         <>
             <Navbar expand="lg" sticky="top" className="navbar">
                 <Container>
-                    <Navbar.Brand><img src='./image/icon.png' alt='Brand' /></Navbar.Brand>
+                    <Navbar.Brand><Link to="/"><img src='./image/icon.png' alt='Brand' /></Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                         <Nav className="me-end">

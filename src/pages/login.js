@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Modal, Form } from 'react-bootstrap';
 import GlobalButton from '../components/Atoms/Global-button';
 import GlobalForm from '../components/Atoms/Global-form';
-import Navigation from '../components/Navigation';
 
 function Login({ show, setShow }) {
     const handleClose = () => setShow(false);
