@@ -17,7 +17,7 @@ function Navigation() {
                         <Nav className="me-end">
                             <GlobalButton
                                 name='Register'
-                                className='link btn text-white me-3 border-0'
+                                className='link btn text-white me-3 border-0 mb-3 mb-lg-0'
                                 onClick={() => setShowRegister(true)}
                             />
                             <GlobalButton
